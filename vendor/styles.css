@@ -13,8 +13,11 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    padding: 28px 48px 0;
+    width: calc(100% - 96px);
+    margin: 0 auto;
+    padding: 28px 0 0;
 }
 
 .header__logo {
@@ -30,9 +33,25 @@
     margin: 0;
 }
 
-
-.header__link {
+.header__lang-link {
     color: #FFFFFF;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-align: right;
+    text-decoration: none;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
+
+.header__lang-link_ru {
+    margin-right: 18px;
 }
 
 .lead {
@@ -76,4 +95,25 @@
 
     letter-spacing: 1.5px;
     text-transform: uppercase;
+}
+
+/* ниже медиазапросы для разных размеров экрана */
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: calc(100% - 32px);
+        padding: 16px 0 0;
+    }
 }
