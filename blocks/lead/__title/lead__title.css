@@ -1,0 +1,32 @@
+.lead__title {
+    display: flex;
+    justify-content: center;
+
+    max-width: calc(100% - 264px);
+    margin: 0;
+
+    font-size: 96px;
+    line-height: 1.04;
+    text-align: center;
+}
+
+@media screen and (max-width: 1143px) {
+    .lead__title {
+        max-width: calc(100% - 208px);
+    }
+}
+
+@media screen and (max-width: 941px) {
+    .lead__title {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .lead__title {
+        max-width: calc(100% - 32px);
+
+        font-size: 40px;
+        line-height: 1.1;
+    }
+}

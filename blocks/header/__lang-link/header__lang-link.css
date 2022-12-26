@@ -1,0 +1,15 @@
+.header__lang-link {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration: none;
+
+    transition: opacity .3s, text-decoration .3s;
+}
+
+@media screen and (max-width: 632px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+}

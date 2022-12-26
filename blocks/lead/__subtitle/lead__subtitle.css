@@ -1,0 +1,32 @@
+.lead__subtitle {
+    max-width: calc(100% - 344px);
+    margin: 32px 0 64px;
+
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media screen and (max-width: 1143px) {
+    .lead__subtitle {
+        max-width: calc(100% - 288px);
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 941px) {
+    .lead__subtitle {
+        max-width: calc(100% - 128px);
+        margin-bottom: 56px;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .lead__subtitle {
+        max-width: calc(100% - 32px);
+        margin: 16px 0 40px;
+
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}

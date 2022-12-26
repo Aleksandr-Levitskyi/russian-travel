@@ -1,0 +1,22 @@
+.lead__capture {
+    align-self: flex-start;
+    margin-top: 8px;
+
+    font-size: 10px;
+    line-height: 1.4;
+
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 941px) {
+    .lead__capture {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .lead__capture {
+        margin-left: 16px;
+    }
+}

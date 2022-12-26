@@ -1,0 +1,17 @@
+.cover__background {
+    max-width: calc(100% - 96px);
+    min-height: 100%;
+    margin: 0 auto;
+
+    position: relative;
+
+    background-image: url(../../../images/cover.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1143px) {
+    .cover__background {
+        max-width: 100%;
+    }
+}
