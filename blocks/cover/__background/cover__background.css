@@ -5,13 +5,25 @@
 
     position: relative;
 
-    background-image: url(../../../images/cover.jpg);
+    background-image: url(../../../images/cover-img-l.jpg);
     background-size: cover;
     background-position: center;
 }
 
 @media screen and (max-width: 1143px) {
     .cover__background {
-        max-width: 100%;
+        background-image: url(../../../images/cover-img-m.jpg);
+    }
+}
+
+@media screen and (max-width: 941px) {
+    .cover__background {
+        background-image: url(../../../images/cover-img-s.jpg);
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .cover__background {
+        background-image: url(../../../images/cover-img-xs.jpg);
     }
 }
