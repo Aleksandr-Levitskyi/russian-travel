@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Путешествия по России</title>
 
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -15,15 +14,15 @@
 
 <body class="page">
     <header class="header">
-        <img src="./images/logo.svg" alt="Россия">
+        <img class="header__logo" src="./images/logo.svg" alt="Россия">
         <ul class="header__lang-links">
-            <li><a href="#" class="header__lang-link header__lang-link_ru typography">Ru</a></li>
-            <li><a href="#" class="header__lang-link header__lang-link_en typography">En</a></li>
+            <li><a href="#" class="header__lang-link header__lang-link_selected typography">Ru</a></li>
+            <li><a href="#" class="header__lang-link typography">En</a></li>
         </ul>
     </header>
     <main class="main">
         <section class="lead">
-            <h1 class="lead__title typography typography_title">Путешествия по России</h1>
+            <h1 class="lead__title typography typography_title">Путешествия по&nbsp;России</h1>
             <p class="lead__subtitle typography">Настоящая страна не в выпусках новостей, а здесь.</p>
             <picture>
                 <source srcset="./images/lead-img-xs.jpg" media="(max-width: 632px)">
@@ -52,36 +51,36 @@
                     отпуска.</p>
                 <ul class="intro__list">
                     <li>Часовых поясов&#160;<span class="typography">11</span></li>
-                    <li>Объектов природного наследия ЮНЕСКО&#160;<span class="typography">12</span>
+                    <li>Объектов природного наследия ЮНЕСКО&#160;<span class="intro__list-accent">12</span>
                     </li>
-                    <li>Объектов культурного наследия ЮНЕСКО&#160;<span class="typography">16</span>
+                    <li>Объектов культурного наследия ЮНЕСКО&#160;<spa class="intro__list-accent">16</span>
                     </li>
-                    <li>Природных заповедников&#160;<span class="typography">105</span></li>
-                    <li>Аэропортов&#160;<span class="typography">241</span></li>
+                    <li>Природных заповедников&#160;<span class="intro__list-accent">105</span></li>
+                    <li>Аэропортов&#160;<span class="intro__list-accent">241</span></li>
                 </ul>
             </article>
         </section>
         <section class="photo-grid">
             <div class="photo-grid__items">
-                <img src="./images/photo-grid_01.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_02.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_03.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_04.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_05.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_06.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_07.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_08.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_09.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_10.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_11.jpg" alt="" class="photo-grid__item">
-                <img src="./images/photo-grid_12.jpg" alt="" class="photo-grid__item">
+                <img src="./images/photo-grid_02.jpg" alt="Окно поезда" class="photo-grid__item">
+                <img src="./images/photo-grid_03.jpg" alt="Эльбрус" class="photo-grid__item">
+                <img src="./images/photo-grid_01.jpg" alt="Луг с сеном" class="photo-grid__item">
+                <img src="./images/photo-grid_04.jpg" alt="Туманный лес" class="photo-grid__item">
+                <img src="./images/photo-grid_05.jpg" alt="Лед байкала" class="photo-grid__item">
+                <img src="./images/photo-grid_06.jpg" alt="Берег пляжа" class="photo-grid__item">
+                <img src="./images/photo-grid_07.jpg" alt="Пики гор" class="photo-grid__item">
+                <img src="./images/photo-grid_08.jpg" alt="Знак пешеходного перехода" class="photo-grid__item">
+                <img src="./images/photo-grid_09.jpg" alt="Горы" class="photo-grid__item">
+                <img src="./images/photo-grid_10.jpg" alt="Горы" class="photo-grid__item">
+                <img src="./images/photo-grid_11.jpg" alt="Горы" class="photo-grid__item">
+                <img src="./images/photo-grid_12.jpg" alt="Горы" class="photo-grid__item">
             </div>
         </section>
         <section class="places">
             <article class="place">
                 <h2 class="place__title typography typography_title">Куршская коса</h2>
                 <div class="place__website">
-                    <span class="place__url-heading typography">URL</span>
+                    <span class="place__url-heading typography">url</span>
                     <a href="http://park-kosa.ru" target="_blank" class="place__link typography">park-kosa.ru</a>
                 </div>
                 <picture>
@@ -90,7 +89,7 @@
                     <source media="(max-width: 1143px)" srcset="./images/kosa-m.jpg">
                     <img src="./images/kosa-l.jpg" alt="Куршская коса" class="place__image">
                 </picture>
-                <div class="place__descrition typography">
+                <div class="place__description typography">
                     <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы
                         сможете увидеть два водных
                         горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
@@ -104,7 +103,7 @@
             <article class="place">
                 <h2 class="place__title typography typography_title">Кольский</h2>
                 <div class="place__website">
-                    <span class="place__url-heading typography">URL</span>
+                    <span class="place__url-heading typography">url</span>
                     <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
                         class="place__link typography">National Geographic</a>
                 </div>
@@ -114,7 +113,7 @@
                     <source media="(max-width: 1143px)" srcset="./images/kolskiy-m.jpg">
                     <img src="./images/kolskiy-l.jpg" alt="Куршская коса" class="place__image">
                 </picture>
-                <div class="place__descrition typography">
+                <div class="place__descrpition typography">
                     <p class="place__paragraph">Почти весь полуостров находится за
                         Полярным кругом. Саамская тундра, от которой на юг —
                         тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -129,7 +128,7 @@
             <article class="place">
                 <h2 class="place__title typography typography_title">Алтай</h2>
                 <div class="place__website">
-                    <span class="place__url-heading typography">URL</span>
+                    <span class="place__url-heading typography">url</span>
                     <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank"
                         class="place__link typography">YouTube
                     </a>
@@ -140,7 +139,7 @@
                     <source media="(max-width: 1143px)" srcset="./images/altay-m.jpg">
                     <img src="./images/altay-l.jpg" alt="Куршская коса" class="place__image">
                 </picture>
-                <div class="place__descrition typography">
+                <div class="place__description typography">
                     <p class="place__paragraph">Алтай — одно из красивейших мест в
                         России.
                         В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
@@ -154,7 +153,7 @@
             <article class="place">
                 <h2 class="place__title typography typography_title">Зимний Байкал</h2>
                 <div class="place__website">
-                    <span class="place__url-heading typography">URL</span>
+                    <span class="place__url-heading typography">url</span>
                     <a href="https://vk.com/baikalmile" target="_blank"
                         class="place__link typography">https://vk.com/baikalmile
                     </a>
@@ -165,7 +164,7 @@
                     <source media="(max-width: 1143px)" srcset="./images/baiykal-m.jpg">
                     <img src="./images/baiykal-l.jpg" alt="Куршская коса" class="place__image">
                 </picture>
-                <div class="place__descrition typography">
+                <div class="place__description typography">
                     <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
                         в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших
                         мест в России.</p>
@@ -178,7 +177,7 @@
             <article class="place">
                 <h2 class="place__title typography typography_title">Карелия</h2>
                 <div class="place__website">
-                    <span class="place__url-heading typography">URL</span>
+                    <span class="place__url-heading typography">url</span>
                     <a href="http://vodlozero.ru" target="_blank" class="place__link typography">http://vodlozero.ru
                     </a>
                 </div>
@@ -188,7 +187,7 @@
                     <source media="(max-width: 1143px)" srcset="./images/kareliya-m.jpg">
                     <img src="./images/kareliya-l.jpg" alt="Куршская коса" class="place__image">
                 </picture>
-                <div class="place__descrition typography">
+                <div class="place__description typography">
                     <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
                         сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров —
                         леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым
