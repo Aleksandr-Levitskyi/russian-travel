@@ -2,6 +2,9 @@
     display: flex;
     justify-content: center;
 
+    /*-- костыль, но проблему решает --*/
+    overflow-wrap: anywhere;
+
     max-width: calc(100% - 264px);
     margin: 0;
 
