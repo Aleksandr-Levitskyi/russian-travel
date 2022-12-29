@@ -4,7 +4,7 @@
 
     display: grid;
     grid-template-columns: minmax(min-content, 460px) 1fr;
-    align-items: end;
+
     gap: 48px 40px;
 }
 
@@ -17,6 +17,8 @@
 
 @media screen and (max-width: 941px) {
     .place {
+        margin-bottom: 72px;
+
         grid-template-columns: minmax(min-content, 340px) 1fr;
         column-gap: 28px;
     }
@@ -26,6 +28,6 @@
     .place {
         grid-template-columns: 1fr;
         row-gap: 32px;
-        margin-bottom: 50px;
+        margin-bottom: 49px;
     }
 }

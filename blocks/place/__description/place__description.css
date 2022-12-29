@@ -1,3 +1,10 @@
 .place__description {
     align-self: start;
 }
+
+@media screen and (max-width: 632px) {
+    .place__description {
+        max-width: calc(100% - 32px);
+        margin: 0 auto;
+    }
+}

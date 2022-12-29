@@ -1,12 +1,30 @@
 .intro__text {
-    margin: 40px 0 33px;
+    max-width: calc(100% - 590px);
+    margin: 40px 442px 33px 148px;
 
     font-size: 16px;
     line-height: 1.63;
 }
 
+
+@media screen and (max-width: 1143px) {
+    .intro__text {
+        max-width: calc(100% - 334px);
+        margin-right: 286px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 941px) {
+    .intro__text {
+        max-width: calc(100% - 48px);
+        margin: 40px auto 33px;
+    }
+}
+
 @media screen and (max-width: 632px) {
     .intro__text {
+        max-width: calc(100% - 32px);
         margin-bottom: 34px;
     }
 }

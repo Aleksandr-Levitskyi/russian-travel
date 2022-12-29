@@ -1,31 +1,17 @@
 .cover__link {
-    display: block;
-    padding: 245px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 100%;
+    min-height: 100%;
 
     text-decoration: none;
-    background-color: rgba(42, 44, 47, .3);
+    color: #fff;
 
-    transition: background-color .3s;
+    background-color: rgba(42, 44, 47, .3);
 }
 
 .cover__link:hover {
     background-color: rgba(42, 44, 47, .8);
-}
-
-@media screen and (max-width: 1143px) {
-    .cover__link {
-        padding: 195px 0;
-    }
-}
-
-@media screen and (max-width: 941px) {
-    .cover__link {
-        padding: 115px 0;
-    }
-}
-
-@media screen and (max-width: 632px) {
-    .cover__link {
-        padding: 33px 0;
-    }
 }

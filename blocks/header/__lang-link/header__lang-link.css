@@ -4,6 +4,8 @@
     text-align: right;
     text-decoration: none;
 
+    color: #fff;
+
     transition: opacity .3s, text-decoration .3s;
 }
 
