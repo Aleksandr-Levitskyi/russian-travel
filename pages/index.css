@@ -1,8 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
-@import url(../vendor/style.css);
-
 @import url(../blocks/page/page.css);
 
 /*-- header --*/
@@ -18,7 +16,6 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__capture/lead__capture.css);
-
 @import url(../blocks/lead/__figure/lead__figure.css);
 
 /*-- intro --*/
@@ -53,6 +50,5 @@
 /*-- footer --*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyrigth/footer__copyright.css);

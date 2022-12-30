@@ -26,9 +26,8 @@
     }
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 691px) {
     .intro__list {
         max-width: calc(100% - 32px);
-        margin: 0 auto;
     }
 }

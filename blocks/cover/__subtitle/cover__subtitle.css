@@ -1,6 +1,7 @@
 .cover__subtitle {
-    max-width: calc(100% - 824px);
     margin: 32px auto 0;
+    padding-left: calc((100% - 360px)/2);
+    padding-right: calc((100% - 360px)/2);
 
     font-weight: 400;
     font-size: 18px;
@@ -8,22 +9,11 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1143px) {
+@media screen and (max-width: 691px) {
     .cover__subtitle {
-        max-width: calc(100% - 664px);
-    }
-}
-
-@media screen and (max-width: 941px) {
-    .cover__subtitle {
-        max-width: calc(100% - 408px);
-    }
-}
-
-@media screen and (max-width: 632px) {
-    .cover__subtitle {
-        max-width: calc(100% - 32px);
         margin-top: 16px;
+        padding-left: calc((100% - 288px)/2);
+        padding-right: calc((100% - 288px)/2);
 
         font-size: 14px;
         line-height: 1.14;

@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 691px) {
     .place__title {
         max-width: calc(100% - 32px);
         padding: 0;

@@ -1,12 +1,12 @@
 .lead__title {
+    box-sizing: border-box;
     display: flex;
+
     justify-content: center;
 
-    /*-- костыль, но проблему решает --*/
-    overflow-wrap: anywhere;
-
-    max-width: calc(100% - 264px);
     margin: 0;
+    padding-left: calc((100% - 720px)/2);
+    padding-right: calc((100% - 720px)/2);
 
     font-weight: 900;
     font-size: 96px;
@@ -14,21 +14,10 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1143px) {
+@media screen and (max-width: 691px) {
     .lead__title {
-        max-width: calc(100% - 208px);
-    }
-}
-
-@media screen and (max-width: 941px) {
-    .lead__title {
-        max-width: calc(100% - 48px);
-    }
-}
-
-@media screen and (max-width: 632px) {
-    .lead__title {
-        max-width: calc(100% - 32px);
+        padding-left: calc((100% - 288px)/2);
+        padding-right: calc((100% - 288px)/2);
 
         font-size: 40px;
         line-height: 1.1;

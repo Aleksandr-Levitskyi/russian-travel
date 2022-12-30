@@ -4,7 +4,7 @@
     justify-content: center;
 
     max-width: 100%;
-    min-height: 100%;
+    min-height: 740px;
 
     text-decoration: none;
     color: #fff;
@@ -14,4 +14,25 @@
 
 .cover__link:hover {
     background-color: rgba(42, 44, 47, .8);
+}
+
+/* -- 1024px --*/
+@media screen and (max-width: 1143px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+/*-- 768px --*/
+@media screen and (max-width: 941px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+/*-- 320px --*/
+@media screen and (max-width: 691px) {
+    .cover__link {
+        min-height: 200px;
+    }
 }
